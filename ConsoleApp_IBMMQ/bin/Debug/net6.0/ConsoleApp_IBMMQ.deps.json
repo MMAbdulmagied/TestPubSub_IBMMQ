@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleApp_IBMMQ/1.0.0": {
+        "dependencies": {
+          "IBMMQDotnetClient": "9.2.4",
+          "IBMXMSDotnetClient": "9.2.4",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "ConsoleApp_IBMMQ.dll": {}
+        }
+      },
+      "IBMMQDotnetClient/9.2.4": {
+        "runtime": {
+          "lib/netstandard2.0/amqmdnetstd.dll": {
+            "assemblyVersion": "9.2.4.0",
+            "fileVersion": "9.2.4.0"
+          }
+        }
+      },
+      "IBMXMSDotnetClient/9.2.4": {
+        "runtime": {
+          "lib/netstandard2.0/amqmxmsstd.dll": {
+            "assemblyVersion": "9.2.4.0",
+            "fileVersion": "9.2.4.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp_IBMMQ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IBMMQDotnetClient/9.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j+RIozKkIVfqLkJAv2Swttc9IMksNMDvUotyDQ2wOeFITV6AjzHTAztq3wO21+XpX1yrGLTwb5aNeOWFpaoVug==",
+      "path": "ibmmqdotnetclient/9.2.4",
+      "hashPath": "ibmmqdotnetclient.9.2.4.nupkg.sha512"
+    },
+    "IBMXMSDotnetClient/9.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sVWKnrboUZPtJ2fNHsmlT0q8y0s4vV+HS1gyhG9iopg7CiekVg2Roh1qJIvsygokW+CUtPEsQijKQA2ti4t7DA==",
+      "path": "ibmxmsdotnetclient/9.2.4",
+      "hashPath": "ibmxmsdotnetclient.9.2.4.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    }
+  }
+}
